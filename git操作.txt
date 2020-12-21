@@ -2,6 +2,8 @@
 
 取消已暂存的文件：git reset HEAD 文件名 或者 git reset HEAD .
 
+移除仓库的文件:git rm -f 文件名
+
 版本的回退：
   查看版本：git reflog
   切换版本：git reset --hard 版本号
